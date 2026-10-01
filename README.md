@@ -79,7 +79,8 @@
 **方式零：在线直接看**（GitHub Pages，无需下载）
 
 ```text
-https://d-onexxx.github.io/aurora/aurora-curtain.html
+https://d-onexxx.github.io/aurora/                       # 短链：自动跳转到作品页
+https://d-onexxx.github.io/aurora/aurora-curtain.html    # 作品页直链
 ```
 
 **方式一：直接打开（推荐）**
