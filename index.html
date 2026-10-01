@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>极光帷幕 · AURORA CURTAIN</title>
+<link rel="canonical" href="aurora-curtain.html">
+<!-- 无 JS 时的兜底跳转 -->
+<meta http-equiv="refresh" content="0; url=aurora-curtain.html">
+<style>
+  html,body{
+    height:100%; margin:0; background:#01030a; color:rgba(186,226,206,.72);
+    font-family:ui-sans-serif,system-ui,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:18px; text-align:center; padding:0 8vw; letter-spacing:.18em;
+  }
+  .bar{
+    width:min(420px,72vw); height:1px;
+    background:linear-gradient(90deg,rgba(57,255,138,0),rgba(57,255,138,.55),rgba(255,45,111,.55),rgba(255,45,111,0));
+  }
+  .t{
+    font-family:"Times New Roman",Georgia,serif; font-style:italic;
+    font-size:clamp(20px,3.4vw,40px); color:rgba(244,248,246,.86); letter-spacing:.02em;
+  }
+  .s{ font-size:12px; opacity:.6; }
+  a{
+    color:#39ff8a; text-decoration:none; font-size:13px; letter-spacing:.12em;
+    border-bottom:1px solid rgba(57,255,138,.35); padding-bottom:2px;
+  }
+  a:hover{ border-color:#39ff8a; }
+</style>
+</head>
+<body>
+  <div class="bar"></div>
+  <div class="t">极光帷幕 · Aurora Curtain</div>
+  <div class="s">正在进入实时渲染… / entering…</div>
+  <a id="go" href="aurora-curtain.html">若未自动跳转，点此进入 →</a>
+  <div class="bar"></div>
+<script>
+  // 保留 ?t=5.2 之类的查询串与 hash 再跳转，方便分享"某一刻"的链接
+  var q = location.search + location.hash;
+  var go = document.getElementById('go');
+  if (go) go.href = 'aurora-curtain.html' + q;
+  location.replace('aurora-curtain.html' + q);
+</script>
+</body>
+</html>
