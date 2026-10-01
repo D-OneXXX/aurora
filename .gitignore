@@ -1,0 +1,14 @@
+# 打包依赖与中间产物（运行作品本身不需要任何依赖）
+.build/
+node_modules/
+*.log
+
+# 本地实验产物（不入库）
+repro/
+docs/_raw_*
+docs/_sheet.jpg
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
