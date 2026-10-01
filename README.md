@@ -5,6 +5,7 @@
 **单文件实时极光水面 · three.js + 自定义 GLSL · 断网双击即可运行**
 
 [![three.js](https://img.shields.io/badge/three.js-r160-000000)](https://threejs.org/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%8E%A9-2ea44f)](https://d-onexxx.github.io/aurora/aurora-curtain.html)
 [![WebGL](https://img.shields.io/badge/WebGL-2.0-990000)](https://developer.mozilla.org/docs/Web/API/WebGL_API)
 ![runtime dependencies](https://img.shields.io/badge/runtime%20dependencies-none-brightgreen)
 ![single file](https://img.shields.io/badge/output-single%20HTML%20~940%20KB-2ea44f)
@@ -75,6 +76,12 @@
 
 ## 快速开始
 
+**方式零：在线直接看**（GitHub Pages，无需下载）
+
+```text
+https://d-onexxx.github.io/aurora/aurora-curtain.html
+```
+
 **方式一：直接打开（推荐）**
 
 ```text
@@ -93,7 +100,8 @@ python -m http.server 8080
 **取某一刻的静帧**
 
 ```text
-aurora-curtain.html?t=5.2     # 时间相位停在第 5.2 秒并暂停，HUD 显示 PINNED t=5.2
+aurora-curtain.html?t=5.2                    # 本地：时间相位停在第 5.2 秒并暂停
+https://d-onexxx.github.io/aurora/aurora-curtain.html?t=5.2   # 在线同理，HUD 显示 PINNED t=5.2
 ```
 
 ## 操作与快捷键
